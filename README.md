@@ -94,7 +94,7 @@ Open a GraphQL IDE and set the url as http://localhost:4000/graphql
 
 Run a Subscription
 
-```
+```graphql
 subscription receive {
   receiveMessage{
     id
