@@ -65,6 +65,17 @@ Windows
 
 </br>
 
+
+Create a Kafka Topic:
+
+You can either create topics automatically when a message publish to a non-existing topic (refer this [link](https://stackoverflow.com/a/36442306/17710870)) or you can manually create the topic as below.
+
+```
+.\bin\windows\kafka-topics.bat --create --topic MessageService --bootstrap-server localhost:9092
+```
+
+</br>
+
 ### Testing GraphQL Subscriptions
 
 </br>
