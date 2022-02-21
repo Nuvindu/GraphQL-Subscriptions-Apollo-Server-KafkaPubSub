@@ -31,7 +31,7 @@ Run the Zookeeper Server:
 
 </br>
 
-Open a terminal and enter the Kafka directory. 
+Open a terminal and enter the Kafka directory. </br>
 Run the following command.
 
 Linux
@@ -50,7 +50,7 @@ Run the Kafka Server:
 
 </br>
 
-Open another terminal and enter the Kafka directory.
+Open another terminal and enter the Kafka directory.</br>
 Run the following command.
 
 Linux
@@ -70,6 +70,15 @@ Create a Kafka Topic:
 
 You can either create topics automatically when a message publish to a non-existing topic (refer this [link](https://stackoverflow.com/a/36442306/17710870)) or you can manually create the topic as below.
 
+Open another terminal and enter the Kafka directory.</br>
+Run the following command.
+
+Linux
+```
+bin/kafka-topics.sh --create --topic NUMBER_INCREMENTED --bootstrap-server localhost:9092
+```
+
+Windows
 ```
 .\bin\windows\kafka-topics.bat --create --topic MessageService --bootstrap-server localhost:9092
 ```
