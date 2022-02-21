@@ -1,4 +1,4 @@
-# GraphQL-Subscriptions-Apollo-Server-KafkaPubSub
+## GraphQL-Subscriptions-Apollo-Server-KafkaPubSub
 
 </br>
 
